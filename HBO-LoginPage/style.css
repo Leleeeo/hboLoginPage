@@ -1,0 +1,315 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+  list-style: none;
+  text-decoration: none;
+  user-select: none;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./src/390f9937ad43fc0e763143a8fcd3fb0a.png);
+  background-size: cover;
+}
+
+.filmes-series {
+  display: flex;
+  gap: 29px;
+  padding-right: 60px;
+  padding-top: 2.5px;
+}
+
+header {
+  width: 100vw;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  background: transparent;
+  padding: 44px;
+}
+
+a {
+  color: #a1a1a1;
+}
+
+h5 {
+  color: #a1a1a1;
+  font-size: 15px;
+}
+
+.button1 {
+  background-color: rgba(128, 128, 128, 0.322);
+  width: 75px;
+  height: 35px;
+  border: 0px solid rgba(128, 128, 128, 0.322);
+  border-radius: 4px;
+  padding: 6px 10px;
+  color: #c9c9c9;
+  font-size: 15px;
+  font-weight: 700;
+}
+
+.button1:hover {
+  background-color: white;
+  color: black;
+}
+
+.header1 {
+  display: flex;
+  width: 15vw;
+  justify-content: space-around;
+}
+
+.header2 {
+  display: flex;
+  justify-content: center;
+  width: 65vw;
+  margin-right: 30px;
+}
+
+.header3 {
+  display: flex;
+}
+
+.entrar {
+  margin-top: 7px;
+}
+
+.entrar-assinar {
+  display: flex;
+  gap: 29px;
+}
+
+.lupa1 {
+  margin-left: 20px;
+  padding: 6px;
+}
+
+main {
+  width: 100vw;
+  height: 79vh;
+  flex-direction: column;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+a:hover {
+  color: white;
+}
+
+.login0 {
+  text-align: center;
+}
+
+h6 {
+  color: #ffffff;
+  font-size: 30px;
+}
+
+p {
+  color: rgba(255, 255, 255, 0.873);
+}
+
+.emailpassoword {
+  background-color: #110b1c;
+  border-radius: 3px;
+  width: 54vw;
+  height: 55px;
+  padding: 12px;
+  border: 1px solid #6c6c74;
+  color: #a1a1a1;
+}
+
+.emailpassoword::placeholder {
+  padding-left: 2px;
+  font-size: 19px;
+}
+
+.emailesenha {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-left: 13px;
+}
+
+.login {
+  height: 61vh;
+  width: 62vw;
+  background: linear-gradient(
+    127deg,
+    rgba(13, 13, 13, 1) 0%,
+    rgba(14, 13, 20, 1) 7%,
+    rgba(18, 13, 30, 1) 17%,
+    rgba(20, 13, 33, 1) 28%,
+    rgba(21, 13, 34, 1) 42%,
+    rgba(28, 15, 43, 1) 55%,
+    rgba(28, 15, 39, 1) 69%,
+    rgba(36, 16, 45, 1) 86%,
+    rgba(40, 16, 44, 1) 97%
+  );
+  border: 0px solid;
+  border-radius: 8px;
+  flex-direction: column;
+  padding: 60px;
+}
+
+.contahbo {
+  margin: 0px 0px 30px;
+}
+
+.login {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.button2 {
+  background-color: #36323f5c;
+  border: 0;
+  border-radius: 5px;
+  width: 150px;
+  height: 48px;
+}
+
+.h61 {
+  color: #a1a1a1;
+  font-size: 15px;
+}
+
+.h6 {
+  color: #8b7bee;
+  font-size: 15px;
+}
+
+.entrar-esqueceu {
+  display: flex;
+  gap: 30px;
+  margin-top: 30px;
+  align-items: center;
+}
+
+.linhas {
+  display: flex;
+  gap: 10px;
+  margin-top: 32px;
+  margin-bottom: 32px;
+}
+
+.linha1 {
+  border: 1px solid rgba(114, 114, 116, 0.7);
+  align-self: center;
+  justify-self: center;
+  width: 720px;
+}
+
+.linha2 {
+  border: 1px solid rgba(114, 114, 116, 0.7);
+  align-self: center;
+  justify-self: center;
+  width: 720px;
+}
+
+.plinha {
+  font-weight: 100px;
+}
+
+h3 {
+  color: white;
+  font-size: 14px;
+}
+
+.button03 {
+  background-color: rgba(128, 128, 128, 0.337);
+  width: 200px;
+  height: 49px;
+  border: 0;
+  border-radius: 4px;
+  font-weight: 700;
+  color: white;
+}
+
+.button03:hover {
+  border: 2px solid rgb(131, 70, 177);
+  background-color: black;
+  color: white;
+}
+
+.hbomax {
+  margin-bottom: 20px;
+}
+
+.entrar1 {
+  margin-top: 15px;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    height: 130vh;
+    width: 100vw;
+  }
+
+  .header1,
+  .header3,
+  .entrar-assinar {
+    display: none;
+  }
+
+  .header2 {
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+  }
+
+  .emailpassoword {
+    width: 205px;
+  }
+
+  .emailesenha {
+    margin-left: 0px;
+  }
+
+  main {
+    flex-direction: column;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .login {
+    width: 300px;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: transparent;
+  }
+}
+
+@media screen and (max-width: 1600px) and (min-width: 801px) {
+  body {
+    height: 115vh;
+  }
+
+  .login {
+    height: 1000px;
+    width: 800px;
+  }
+
+  .emailpassoword {
+    width: 650px;
+  }
+
+  .hbomax2 {
+    margin-left: 117px;
+  }
+
+  .header1 {
+    gap: 20px;
+    margin-left: 14px;
+  }
+}
